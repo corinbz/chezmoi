@@ -1,0 +1,16 @@
+# Plugins
+source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Aliases
+alias c="clear"
+alias nconf="nvim ~/.config/nvim/init.lua"
+alias zconf="nvim ~/.zshrc"
+alias ls="eza --icons=always"
+alias cd='z'
+
+# Starship prompt
+eval "$(starship init zsh)"
+
+# Better cd
+eval "$(zoxide init zsh)"
